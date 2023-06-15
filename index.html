@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./aboutme.css">
+  <link rel="stylesheet" href="./formaction.css">
+  <script src="./index.js" defer></script>
+  <title>Portifolio - Gui Souza</title>
+</head>
+<body>
+ 
+
+  <div class="aboutMeGrid">
+    <header class="header">
+      <nav class="headerBtnContainer">
+        <button class="headerBtn">Sobre mim</button>
+        <button class="headerBtn">Formação</button>
+        <button class="headerBtn">Projetos</button>
+        <button class="headerBtn">Contato</button>
+      </nav>
+    </header>
+    <div class="img-central"></div>
+    <section class="aboutMeContainer">
+
+      <div class="abouMeContent">
+      <div class="titleContent">
+        <p>Guilherme de Souza</p>
+        <p>Desenvolvedor Junior</p>
+      </div>
+      <div class="aboutMeText">
+        <p>Olá, Sou Gui tenho 19 anos e sou estudante de Analíse e desenvolvimento de sistemas pela universidade Uninter,  Desde pequeno tenho interesse na aréa de tecnologia, após alguns treinamentos e cursos me indentifiquei com a aréa de desenvolvimento Front-end, que me possibilitou a criação de alguns projetos que poderão ser vizualizados aqui</p>
+      </div>
+      <div class="BtnContainer">
+         <button class="mainBtnCV">Baixar CV</button>
+         <button class="mainBtnContato">Contato</button>
+      </div>
+    </div>
+    </section>
+   
+    <section class="aboutMeSidebar">
+      <div class="iconscontent">
+        <img class="socialIcons" src="./public/img/icons/whatsaap-icon.svg" alt="">
+        <img  class="socialIcons" src="./public/img/icons/instagram-icon.svg" alt="">
+        <img  class="socialIcons" src="./public/img/icons/email-icon.svg" alt="">
+        <img class="socialIcons" src="./public/img/icons/linkedin.svg" alt="">
+      </div>
+    </section>
+    </div>
+    <div class="formactionGrid">
+      <section class="formactionContent">
+        <h1 class="formationTitle">Formação</h1>
+        <div class="formactionList">
+          <ul>
+            <li class="formationItem">Analíse e desenvolvimento de sistemas (Graduação) 2° Periódo - Uninter</li>
+            <li class="formationItem">Introdução ao design de interfaces figma (Curso) - Alura</li>
+            <li class="formationItem">Desenvolvimento Web (HTML, CSS, Java Script) - Alura</li>
+            <li class="formationItem">Programação Orientada a Objeto (Java) - Alura</li>
+            <li class="formationItem">Web Design (Corel, Photoshop, Flash) - Jumper pet Cursos</li>
+            <li class="formationItem">Inglês (Nível I, II, III) - Jumper pet cursos</li>
+            <li class="formationItem">Informatica (Excel, Word, Power Point) Jumper pet cursos</li>
+            <li class="formationItem">Montagem e manutenção de computadores - Jumper pet Cursos</li>
+          </ul>
+        </div>
+      </section>
+        <section class="formactionSidebar">
+          <h2 class="techTitle">Tecnologias Estudadas</h2>
+          <img class="imageTech" src="./public/img/techs.svg" alt="">
+      </section>
+    </div>
+    <div class="gridPtoject">
+    <div class="containerProject">
+      <button class="back control" aria-label="Previous card"></button>
+      <button class="next control" aria-label="Next card"></button>
+      <div class="gallery-wrapper">
+        <div class="gallery">
+          <div id="siteOficina" class="card  current-item">
+            <h3>Site de Oficina</h3>
+          </div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          <div class="card  current-item"></div>
+          </var>
+        </div>
+      </div>
+    </div>
+      <section class="sidebarProject">
+        <h1 class="title">Projetos</h1>
+        <div class="gitCard">
+          <img class = "iconGit" src="./public/img/git.svg" alt="">
+          <h2>Guilherme de Souza</h2>
+          <h2>Guizones03</h2>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="gridContact">
+    <section class="formContact">
+      <form action="">
+        <div class="formInput">
+          <label for="name" class="labelForm">Nome:</label>
+          <input type="text" class="inputArea" id="name" name="name">
+        </div>
+        <div class="formInput">
+          <label for="email" class="labelForm">Email:</label>
+          <input type="email" class="inputArea" id="email" name="email">
+        </div>
+        <div class="formInput">
+          <label for="tell" class="labelForm">Telefone:</label>
+          <input type="tel" class="inputArea" id="tell" name="tell">
+        </div>
+        <div class="formInput">
+          <label for="Assunto" class="labelForm">Assunto:</label>
+          <input type="text" class="inputArea" id="assunto" name="assunto">
+        </div>
+        <div class="textArea">
+          <label for="message" class="labelForm">Mensagem:</label>
+          <textarea class="inputArea" name="message" id="message" cols="50" rows="20"></textarea>
+        </div>
+      </form>
+    </section>
+    <section class="sidebarContact">
+      <img class="imgTell"  src="./public/img/tell.svg" alt="">
+    </section>
+       <button  class="btnContact type="submit">Enviar</button>
+  
+  </div>
+  
+</body>
+</html>

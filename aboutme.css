@@ -1,0 +1,144 @@
+
+.aboutMeGrid{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.header{
+    grid-column: 5/8;
+    grid-row: 1/1;
+    height: 20vh;
+}
+
+.headerBtnContainer{
+    display: flex;
+    justify-content:end;
+    align-content: flex-end;
+    margin: 2vw;
+}
+
+.headerBtn{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid transparent;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.img-central{
+    width: 35vw;
+    height: 70vh;
+    background-image: url(./public/img/imagemGui.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-left:20%;
+    margin-top: 8%;
+}
+
+.aboutMeContainer{
+    grid-column: 7/8;
+    display: flex;
+
+    grid-row:2/10;
+    height: 80vh;
+    margin-right: 5vw;
+    width: 70vh;
+   
+}
+.aboutMeContent{
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titleContent{
+    display: grid;
+    gap: 10px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #E48200;
+    margin:10px;
+    text-align: center;
+
+}
+.aboutMeText{
+    border-radius: 15px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 10px 10px;
+    background-color: #102620;
+    text-align: left;
+    font-size: 25px;
+    color:#ffffff;
+    height: 50vh;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.BtnContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.mainBtnCV, .mainBtnContato{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+    color: #F4F3EE;
+    background: #E48200;
+    border: 4px solid #E48200;
+    border-radius: 15px;
+    transition: 0.3s;
+
+}
+
+
+.aboutMeSidebar{
+    background-color: #102026;
+    grid-column:1/5;
+    grid-row: 1/10;
+    height: 100vh;
+    display: flex;
+    align-items:flex-end;
+
+}
+
+.socialIcons{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    margin:10px;
+    width: 50px;
+    height: 50px;
+}
+.socialIcons:hover{ 
+    transform: scale(1.3);
+}
+.mainBtnCV:hover,
+.mainBtnContato:hover{
+    background-color: #102026;
+    color:#E48200;
+
+}
+.headerBtn:hover{
+    border-bottom:3px solid #E48200;
+}
